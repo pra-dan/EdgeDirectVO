@@ -7,6 +7,7 @@ rgbd_dataset*
 *.pyc
 *.tgz
 waste*
+eigen-*
 rgbd_dataset_freiburg1_desk
 rgbd_dataset_freiburg2_xyz
 rgbd_dataset_freiburg1_desk2

@@ -83,3 +83,9 @@ python2 evaluate_rpe.py groundtruth_fr1desk2.txt rgbd_dataset_freiburg1_desk2_re
 ```
 python2 evaluate_ate.py groundtruth_fr1desk2.txt rgbd_dataset_freiburg1_desk2_results.txt --verbose
 ```
+
+## Visualise results
+- The predicted coordinates (x,y,z) are stored in a txt file generated in the same working directory (e.g., `rgbd_dataset_freiburg1_xyz_results.txt`). The trajectory can be visualised using a python script: [visualize.py](visualize.py).
+- The output looks as:
+
+![res1.gif](sample_result)
